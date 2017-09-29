@@ -1,0 +1,29 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+div{
+	height: 650px;
+	color: #FAFAFA;
+	background-image: url(mv.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+h1{
+padding-top: 200px;
+text-align: center;
+}
+
+h2{
+	padding-top: 10px;
+	text-align: center;
+}
