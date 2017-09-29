@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after{
+	clear: both;
+	display: block;
+	content: "";
+}
+
+
+
+/* .boxの記述にfloatを追加 */
+.box{
+	height: 200px;
+	width: 200px;
+	border: 3px solid #757575;
+	text-align: center;
+	line-height: 200px;
+	float: left;
+}
+
+
+.orangebox{
+	height: 250px;
+	background-color: orange;
+}
+
+
+
+
+
+
+
+

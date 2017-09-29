@@ -1,0 +1,60 @@
+/* =====================
+  setting
+===================== */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/* =====================
+  Feature
+===================== */
+.heading{
+	padding-top: 90px;
+	text-align: center;
+}
+
+.heading::after{
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
+
+.heading-text{
+	padding-top: 30px;
+	text-align: center;
+}
+
+.container{
+	width: 1020px;
+	margin: 0 auto;
+	padding: 30px 90px;
+}
+
+
+.strength{
+	width: 320px;
+	margin: 0 10px;
+	float: left;
+	text-align: center;
+}
+
+.fa{
+	font-size: 60px;
+}
+
+
+.strength-text{
+	text-align: left;
+}
